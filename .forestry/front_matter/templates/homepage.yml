@@ -7,7 +7,19 @@ fields:
   label: layout
 - type: text
   name: title
-  label: title
+  label: Page Title
 - type: text
   name: description
-  label: description
+  label: SEO Description
+- name: question
+  type: text
+  config:
+    required: false
+  label: Question
+  default: what would you like to learn about this week?
+- name: help_text
+  type: text
+  config:
+    required: false
+  label: Help Text
+  default: click on your choice
