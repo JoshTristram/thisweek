@@ -4,8 +4,7 @@ email: youremail@yourdomain.net
 description: Built using Filament Group's Load CSS and Load JS and http://jch.penibelst.de/'s html compressor for optimising speed.
 type: website
 image: /assets/imgs/octojekyll.jpg
-host: 0.0.0.0
-
+url: surgenz.com
 # Server Config options
 livereload: true
 
