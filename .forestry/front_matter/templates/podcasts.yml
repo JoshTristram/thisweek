@@ -1,4 +1,28 @@
 ---
 label: Podcasts
 hide_body: true
-fields: []
+fields:
+- name: cover
+  type: file
+  config:
+    maxSize: 250
+  label: Cover
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: about
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
