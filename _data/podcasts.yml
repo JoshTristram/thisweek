@@ -10,9 +10,9 @@
     gathered together and delivered into your ear by the good people at BBC
     Earth.
   link:
-  title: your world!
+  title: your world
   image: assets/imgs/moon.png
-  active: 'no'
+  active: 'yes'
 - podcast: The Struggle Bus
   about: >-
     The Struggle Bus is an advice show about mental health, self-care, and just
