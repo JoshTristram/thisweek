@@ -8,8 +8,8 @@ description: Designed to build lightning fast websites
    		<p class="psub center editable">click on your choice</p>
    		<div class="columns pods">
    			{% if podcast.active == yes in site.data.podcasts %}
-   			<a href="" class="column pod" id="open-modal1" style="background-image: url({ podcast.image})">
-   				<h3 class="podtitle">{ podcast.title }</h3>
+   			<a href="" class="column pod" id="open-modal1" style="background-image: url({{ podcast.image}})">
+   				<h3 class="podtitle">{{ podcast.title }}</h3>
    			</a>
    			{% endif %}
    			<a href="" class="column pod" id="open-modal2" style="background-image: url(assets/imgs/baby.png)">
