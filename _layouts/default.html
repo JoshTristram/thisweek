@@ -1,0 +1,70 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en" class="color">
+  {% include head.html %}
+  {% include priority-css.html %}
+  <body class="pbody">
+    <div class="columns ntop is-mobile">
+    	<div class="column">
+		  <h1 class="ptitle navbar-item">this week</h1>
+		  <h2 class="psub navbar-item">Find a new podcast each week.</h2>
+  		</div>
+  		<div class="column">
+  			<div class="pages">
+  			<a class="page is-pulled-right">about</a>
+   			<a class="page is-pulled-right">contact</a>
+   			</div>
+		</div>
+    </div>
+    {{ content }}
+    {% include loadJS.html %}
+    <section class="section maillist">
+   		<h2 class="inbox">get us in your inbox</h2>
+   		<div>
+   			<form action="https://hooks.zapier.com/hooks/catch/4974825/jqdfe6/silent/" method="POST" target="_blank"> 
+   				<input type="text" class="email" placeholder="your email" name="email">
+   				<button class="pbutton" title="sumbit">submit</button>
+   			</form>
+   		</div>
+   	</section>
+   	<script>
+document.querySelector('a#open-modal1').addEventListener('click', function(event) {
+  event.preventDefault();
+  var modal = document.querySelector('#pod1info');
+  var html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
+  modal.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+	});
+modal.querySelector('.modal-close').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+});
+		
+document.querySelector('a#open-modal2').addEventListener('click', function(event) {
+  event.preventDefault();
+  var modal = document.querySelector('#pod2info');
+  var html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
+  modal.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+	});
+modal.querySelector('.modal-close').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+});
+	</script>
+  </body>
+</html>
