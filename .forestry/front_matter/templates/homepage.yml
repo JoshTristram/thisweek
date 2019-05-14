@@ -23,3 +23,5 @@ fields:
     required: false
   label: Help Text
   default: click on your choice
+pages:
+- index.html
