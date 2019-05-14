@@ -23,5 +23,35 @@ fields:
     required: false
   label: Help Text
   default: click on your choice
+- name: podcast_1_
+  type: text
+  config:
+    required: false
+  label: Podcast 1 Answer
+- name: podcast_2_answer
+  type: text
+  config:
+    required: false
+  label: Podcast 2 Answer
+- name: answer_1_image
+  type: file
+  config:
+    maxSize: 250
+  label: Answer 1 Image
+- name: answer_2_image
+  type: file
+  config:
+    maxSize: 250
+  label: Answer 2 Image
+- name: podcast_1_info
+  type: include
+  config: {}
+  template: podcasts
+  label: Podcast 1 Info
+- name: podcast_2_info
+  type: include
+  config: {}
+  template: podcasts
+  label: Podcast 2 Info
 pages:
 - index.html
