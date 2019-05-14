@@ -9,8 +9,6 @@
   <title>{{site.title}}</title>
   {% endif %}
 
-  <meta charset="utf-8" / />
-
   <meta property="og:url" content="{{site.url}}{{page.url}}" />
 
   <meta content="{{ site.title }}" property="og:site_name">
@@ -38,10 +36,8 @@
   {% include loadCSS.html %}
 
 
-  <link rel="preload" href="/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"></noscript>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
 
   <!--  Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
