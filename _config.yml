@@ -1,8 +1,8 @@
-# Site settings
+---
 title: this week
 email: josh@surgenz.com
 description: find a new podcast each week
 type: website
-image: /assets/imgs/octojekyll.jpg
-url: "https://upbeat-cow.cloudvent.net"
-baseurl: ""
+image: "/assets/imgs/octojekyll.jpg"
+url: ''
+baseurl: ''
