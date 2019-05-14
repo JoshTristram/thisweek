@@ -1,4 +1,6 @@
 - name: about
-  link: #
+  link:
 - name: contact
-  link: #
+  link:
+- name: Test
+  link: 'mailto:josh@surgenz.com'
