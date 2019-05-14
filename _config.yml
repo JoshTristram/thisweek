@@ -1,15 +1,8 @@
 # Site settings
-title: Starter Template for Jekyll
-email: youremail@yourdomain.net
-description: Built using Filament Group's Load CSS and Load JS and http://jch.penibelst.de/'s html compressor for optimising speed.
+title: this week
+email: josh@surgenz.com
+description: find a new podcast each week
 type: website
 image: /assets/imgs/octojekyll.jpg
 url: "https://upbeat-cow.cloudvent.net"
 baseurl: ""
-# Server Config options
-livereload: true
-
-# SASS
-sass:
-  sass_dir: assets/_sass
-  style: compressed
