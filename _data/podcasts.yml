@@ -1,0 +1,12 @@
+- podcast: BBC Earth Podcast
+  about: BBC Earth presents a podcast the size of a planet, telling stories about nature, science and our human experience. Immerse yourself in stories about our world and the astonishing creatures, landscapes and elements in it. As you’re transported from the impenetrable forests of Uganda to research bases in the Antarctic; the edges of the Thar Desert to the Shores of Lake Tahoe, you’ll experience tales of human emotion, of encounters with animals, of the strangest corners of the Earth and breathtaking marvels. All carefully gathered together and delivered into your ear by the good people at BBC Earth.
+  link: #
+  title: your world
+  image: assets/imgs/moon.png
+  active: yes
+- podcast: The Struggle Bus
+  about: The Struggle Bus is an advice show about mental health, self-care, and just getting through the damn day. Co-hosts Katharine Heller (@spkheller) and Sally Tamarkin (@sallyt) answer listener questions about family, friends, work, mental health, love, and literally everything else — no topic is off-limits and no problem is too big, too small, or too weird. Climb aboard and get advice from two friends who have lots of feelings and lots of opinions.
+  link: #
+  title: your self
+  image: https://secureimg.stitcher.com/feedimagesplain328/85982.jpg
+  active: yes
