@@ -2,13 +2,13 @@
 layout: default
 title: Homepage
 description: Designed to build lightning fast websites
-question: what would you like to learn about this week?...
+question: what would you like to learn about this week?
 help_text: click on your choice
 
 ---
 <section>
    		<h2 class="qus editable">{{ page.question }}</h2>
-   		<p class="psub center editable">click on your choice</p>
+   		<p class="psub center editable">{{ page.help }}</p>
    		<div class="columns pods">
    			<a href="" class="column pod" id="open-modal1" style="background-image: url()">
    				<h3 class="podtitle"></h3>
