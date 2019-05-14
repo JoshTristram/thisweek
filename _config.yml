@@ -4,8 +4,8 @@ email: youremail@yourdomain.net
 description: Built using Filament Group's Load CSS and Load JS and http://jch.penibelst.de/'s html compressor for optimising speed.
 type: website
 image: /assets/imgs/octojekyll.jpg
-url: https://upbeat-cow.cloudvent.net
-baseurl: https://upbeat-cow.cloudvent.net
+url: upbeat-cow.cloudvent.net
+baseurl: upbeat-cow.cloudvent.net
 # Server Config options
 livereload: true
 
