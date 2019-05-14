@@ -1,0 +1,7 @@
+<div class="column">
+  	<div class="pages">
+  		{% for link in site.data.navigation %}
+  		<a class="page is-pulled-right" href="{{ link.link }}">{{ link.name }}</a>
+  		{% endfor %}
+   </div>
+</div>

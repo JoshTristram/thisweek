@@ -11,12 +11,7 @@ layout: compress
 		  <h1 class="ptitle navbar-item">this week</h1>
 		  <h2 class="psub navbar-item">Find a new podcast each week.</h2>
   		</div>
-  		<div class="column">
-  			<div class="pages">
-  			<a class="page is-pulled-right">about</a>
-   			<a class="page is-pulled-right">contact</a>
-   			</div>
-		</div>
+  		{% include nav.html %}
     </div>
     {{ content }}
     {% include loadJS.html %}
